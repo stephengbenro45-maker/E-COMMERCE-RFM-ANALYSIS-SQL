@@ -1,27 +1,6 @@
-LOAD DATA LOCAL INFILE 'C:/Users/steph/Downloads/archive (1)/online_retail_cleaned.csv' 
-INTO TABLE `rmf analysis data set`.rfm_data_staging 
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
 
-SELECT COUNT(*) FROM `rmf analysis data set`.rfm_data_staging;
 
-LOAD DATA LOCAL INFILE 'C:/Users/steph/Downloads/archive (1)/online_retail_cleaned.csv' 
-INTO TABLE `rmf analysis data set`.rfm_data_staging 
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
 
-TRUNCATE TABLE `rmf analysis data set`.rfm_data_staging; 
-
-LOAD DATA LOCAL INFILE 'C:/Users/steph/Downloads/archive (1)/online_retail_cleaned.csv' 
-INTO TABLE `rmf analysis data set`.rfm_data_staging 
-FIELDS TERMINATED BY ',' 
-ENCLOSED BY '"'
-LINES TERMINATED BY '\n'
-IGNORE 1 ROWS;
 
 
 SELECT COUNT(*) FROM `rmf analysis data set`.rfm_data_staging;
